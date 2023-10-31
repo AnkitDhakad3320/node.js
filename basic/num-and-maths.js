@@ -32,4 +32,11 @@ const hundreds = 20000000
 const min = 10
 const max = 20
 
-console.log(Math.floor(Math.random()*(max - min + 1 )) + min )
+console.log(Math.floor(Math.random()*(max - min + 1 ) + min ));
+
+let run =     (Math.random()*(max - min + 1 ) + min )
+
+console.log(run)
+console.log(run.toFixed(2))
+console.log(typeof run);
+console.log(typeof (Math.random()*(max - min + 1 ) + min ));
