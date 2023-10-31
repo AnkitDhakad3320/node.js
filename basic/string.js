@@ -26,9 +26,9 @@ const newStringOne = "    Ankit    "
 // console.log(newStringOne.trim())
 
 
-const url = "https://hitesh.com/hitesh%20choudhary"
+const url = "https://ankit.com/ankit%20dhakad/"
 
-console.log(url.replace('%20', '-'))
+console.log(url.replace('%20', ' '))
 
 console.log(url.includes('sunder'))
 
