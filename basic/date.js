@@ -30,4 +30,4 @@ let newDate = new Date()
 // console.log(newDate.getMonth() + 1);
 // console.log(newDate.getDay());
 
-console.log(` ${newDate.getDay()} and The day is ${newDate.toLocaleString('default', 'weekday', "long", )}`)
+console.log(` ${newDate.getDay()} and The day is ${newDate.toLocaleString('default', {'weekday': "long"}) }`)
