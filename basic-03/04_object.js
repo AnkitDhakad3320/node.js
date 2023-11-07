@@ -59,3 +59,17 @@ const {courseInstructor:Instructor} = course
 console.log(Instructor);
 
 // api concept 
+
+// json value
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {},
+]
+
